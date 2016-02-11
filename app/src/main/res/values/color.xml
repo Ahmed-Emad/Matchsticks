@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03a9f4</color>
+    <color name="primary_dark">#0091ea</color>
+    <color name="accent">#e1f5fe</color>
+    <color name="Blue">#2572ff</color>
+    <color name="Green">#38b48b</color>
+    <color name="white">#ffffff</color>
+    <color name="facebook">#4a6eaa</color>
+    <color name="twitter">#e4e4e4</color>
+    <color name="google">#dd4d38</color>
+    <color name="black">#000000</color>
+    <color name="gray">#868686</color>
+    
+</resources>

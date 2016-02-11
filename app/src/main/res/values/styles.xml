@@ -1,0 +1,17 @@
+<resources>
+
+
+    <style name="MyTheme" parent="android:Theme.Holo.Light">
+
+    </style>
+
+    <style name="MyFullPanelTheme" parent="android:Theme.Holo.Light.Panel">
+
+    </style>
+
+    <style name="MyFullScreenTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+
+    </style>
+
+
+</resources>

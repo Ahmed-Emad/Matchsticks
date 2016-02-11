@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bluewood"
+    tools:context=".Main_Activity">
+
+<ImageView
+    android:id="@+id/Play"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/play"
+    android:layout_gravity="center"
+    android:layout_marginTop="80dp"
+    android:clickable="true"
+    />
+
+    <Switch
+        android:id="@+id/S_Sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sound   "
+        android:textSize="20dp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="80dp"
+        android:checked="true"
+        android:onClick="onSoundClicked"
+        />
+
+    <Button
+        android:id="@+id/How"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Play"
+        android:layout_marginTop="25dp"
+        android:onClick="How" />
+
+    <Button
+        android:id="@+id/About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+        android:layout_marginTop="90dp"
+        android:onClick="About" />
+
+</LinearLayout>
